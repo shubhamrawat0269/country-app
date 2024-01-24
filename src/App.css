@@ -1,0 +1,21 @@
+.main__div {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.country__card {
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 12rem;
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+}
